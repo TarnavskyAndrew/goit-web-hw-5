@@ -35,8 +35,9 @@ Using Poetry:
 
 ```bash
 poetry install
-
+```
 --- 
+
 
 ## Usage
 
@@ -44,10 +45,10 @@ Run the script with:
 
 ```bash
 python privatbank_rates.py <days> [currency1 currency2 ...]
-
+```
 Arguments:
-<days>— number of days to retrieve (1–10)
-[currency1 currency2 ...] — optional list of currencies to display (default: USD, EUR)
+`<days>` — number of days to retrieve (1–10)
+`[currency1 currency2 ...]` — optional list of currencies to display (default: USD, EUR)
 
 --- 
 
