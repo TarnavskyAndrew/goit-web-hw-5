@@ -1,0 +1,15 @@
+2025-06-29 14:44:55 - Requested: 3 days, Currencies: USD, EUR, PLN - Execution time: 1.39 sec
+29.06.2025:
+  EUR: Purchase = 48.3, Sale = 49.3
+  PLN: Purchase = 11.35, Sale = 12.0
+  USD: Purchase = 41.3, Sale = 41.9
+
+28.06.2025:
+  EUR: Purchase = 48.3, Sale = 49.3
+  PLN: Purchase = 11.35, Sale = 12.0
+  USD: Purchase = 41.3, Sale = 41.9
+
+27.06.2025:
+  EUR: Purchase = 48.1, Sale = 49.1
+  PLN: Purchase = 11.25, Sale = 11.9
+  USD: Purchase = 41.3, Sale = 41.9

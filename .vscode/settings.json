@@ -1,0 +1,29 @@
+{
+    "local-history.path": "${workspaceFolder}/.history",
+    "local-history.enabled": 1,
+    "local-history.daysLimit": 30,
+    "local-history.maxDisplay": 100,
+    "local-history.saveDelay": 2,
+    "local-history.exclude": [
+        "**/node_modules",
+        "**/.git",
+        "**/.history",
+        "**/venv",
+        "**/__pycache__"
+    ],
+    
+    "editor.formatOnSave": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+
+    "python.analysis.typeCheckingMode": "basic",
+
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.git": true,
+        "**/.venv": true,
+        "**/.mypy_cache": true,
+        "**/.pytest_cache": true,
+    },
+}
