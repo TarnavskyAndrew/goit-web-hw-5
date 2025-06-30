@@ -48,9 +48,9 @@ python privatbank_rates.py <days> [currency1 currency2 ...]
 ```
 Arguments:
 
-`<days>` — number of days to retrieve (1–10)
+`<days>`  — number of days to retrieve (1–10)
 <br />
-`[currency1 currency2 ...]` — optional list of currencies to display (default: USD, EUR)
+`[currency1 currency2 ...]`  — optional list of currencies to display (default: USD, EUR)
 
 --- 
 

@@ -9,7 +9,7 @@ import time
 import sys
 
 
-# run code in terminal: python privatbank_rates.py 2   or   python privatbank_rates.py 2 USD EUR PLN
+# run code in terminal: python privatbank_rates.py 2   or   python privatbank_rates.py 2 USD EUR PLN ...
 
 API_URL = "https://api.privatbank.ua/p24api/exchange_rates?date="
 
@@ -112,7 +112,7 @@ async def log_command(
 
 async def main():
 
-    start_time = time.perf_counter()
+    start_time = time.perf_counter()  # починаємо вимірювання часу виконання
 
     # перевіряємо, чи передані аргументи
     if len(sys.argv) < 2:
@@ -120,7 +120,7 @@ async def main():
         return
 
     try:
-        days = int(sys.argv[1])
+        days = int(sys.argv[1])  # перший аргумент - кількість днів
     except ValueError:
         print("The days parameter must be a number.")
         return
@@ -138,7 +138,7 @@ async def main():
         data = await fetch_currency_rates(days, currencies)
         print(data)
 
-        # виводимо результати
+        # структурно виводимо результати
         for day in data:
             for date_str, rates in day.items():
                 print(f"\n {Fore.BLUE} Date: {date_str}{Fore.RESET}")
@@ -167,6 +167,7 @@ async def main():
 
 if __name__ == "__main__":
     if platform.system() == "Windows":
+        # встановлюємо політику подій для Windows, щоб підтримувати асинхронність
         asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 
     asyncio.run(main())

@@ -13,3 +13,6 @@
   EUR: Purchase = 48.1, Sale = 49.1
   PLN: Purchase = 11.25, Sale = 11.9
   USD: Purchase = 41.3, Sale = 41.9
+
+
+
